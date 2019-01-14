@@ -1,0 +1,15 @@
+﻿下面说明方法
+
+打开开始菜单栏，搜索cmd.exe 右键以管理员模式运行，
+键入下面的命令，F: 代表 F盘
+chkdsk F: /F /X >"%userprofile%\Desktop\chkdsk.log"
+
+如果需要检查系统盘，C盘
+
+只要键入
+chkdsk C: /F
+
+然后根据提示操作就行。
+
+
+
